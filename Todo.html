@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Todo.css">
+</head>
+
+<body>
+    <div id="outer-container">
+        <h1>To-Do List</h1>
+        <div id="inner-container">
+            <div id="input-container">
+                <input placeholder="Enter task here" type="text" id="input-change" onchange="onInputChange()" />
+                <button id="add-task-button" id="add-task-button" class="button-element"
+                    onclick="onAddTaskClick()">Add</button>
+            </div>
+            <div id="display-outer-container"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="Todo.js"></script>
+</body>
+
+</html>
